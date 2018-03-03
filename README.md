@@ -3,6 +3,10 @@ https://youtu.be/wab6tG_1goo
 
 
 
+![Alt Text](https://raw.githubusercontent.com/anantpanthri/spotifyreact/master/reactspotify1.gif)
+
+![Alt Text](https://raw.githubusercontent.com/anantpanthri/spotifyreact/master/reactspotify2.gif)
+
 
 ------------------Below is the description of the api using react, react bootstrap--------------------------------------------------
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
