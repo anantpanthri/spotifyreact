@@ -1,0 +1,122 @@
+body {
+  background-color: #000;
+    background-image: url("https://clipartion.com/wp-content/uploads/2015/11/black-and-white-music-notes-wallpaper-wallpaper-hdcutepics-com.jpg");
+   background-size: 100%;
+  color:#fff;
+
+}
+
+.App-out{
+  text-align:center;
+  padding: 5%;
+}
+.App-title{
+  text-shadow: 10px;
+  text-decoration: inherit;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 300%;
+
+}
+.profile{
+  text-shadow: 10px;
+  text-decoration: inherit;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 200%;
+
+}
+.gallery{
+  text-shadow: 10px;
+  text-decoration: inherit;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 200%;
+}
+.profile{
+  display: flex;
+  justify-content: center;
+
+}
+.profile-img{
+  width:150px;
+  height:150px;
+  border:3px solid white;
+  border-radius: 95px;
+  object-fit: cover;
+}
+.profile-name{
+
+}
+.profile-total{
+  font-size:18px;
+}
+.profile-popularity{
+  padding: 5%;
+}
+/*Gallery*/
+
+.track{
+  display: inline-block;
+  width:220px;
+  height:220px;
+  border:3px solid white;
+  border-radius: 3px;
+  margin: 10 px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+
+.track-img{
+  width:220px;
+  height:220px;
+  border:3px solid white;
+  border-radius: 3px;
+  object-fit: cover;
+  position: absolute;
+}
+.track-text{
+  background-color: black;
+  color: white;
+  opacity: 0.75;
+  width:210px;
+  text-align: center;
+  margin-left: 3px;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
+.track-play{
+  width:220px;
+  height:220px;
+  position: absolute;
+}
+.track-play-inner{
+  position: absolute;
+  text-align: center;
+  font-size: 25px;
+  background-color: black;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  color: white;
+  padding-top: 13px;
+  margin-left: 80px;
+  margin-top: 80px;
+  opacity: 0;
+
+}
+.track-play-inner:hover{
+  opacity: 0.8;
+  animation-name: fade-in;
+  animation-duration: 0.5s;
+}
+@@keyframes fade-in {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 0.8;
+  }
+}
