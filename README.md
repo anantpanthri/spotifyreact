@@ -1,4 +1,4 @@
-## Code walkthrough of the project can be found on 
+## Code walkthrough of the project can be found at 
 https://youtu.be/wab6tG_1goo
 
 
